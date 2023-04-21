@@ -10,6 +10,7 @@ Notre IA est entrainée, l'api fonctionne et nous renvoie la prediction ( vérif
 Nous sommes au moment où nous devons connecter FASTAPI avec Django pour envoyer les données sur form à l'API
 
 Vous pouvez retrouver le formulaire dans le fichier templates/main/index.html
+Dans le fichier fakeNewsDetection/views.py on peut retrouver le début de code d'envoie des informations à FASTAPI
 
 Vous pouvez retrouver le setup de FASTAPI dans le fichier main.py
 ainsi que le model et le train vecteur dans /files
