@@ -8,6 +8,7 @@ import pandas as pd
 
 app = FastAPI()
 
+# Ici on récupère le model de notre IA ainsi que TFIDF ( besoin pour vectoriser )
 with open('./files/fakeNewsDetection_model.sav', 'rb') as model_file:
     model = pickle.load(model_file)
 
@@ -38,6 +39,9 @@ class InputData(BaseModel):
 #     content: str
 
 
+# Prediction ou on récupère les data du formulaire,
+# on transforme le titre en vecteur car il ne comprend pas le string
+# et on fait notre prédiction qui renvoi 0 ou 1
 @app.post('/predict')
 def predict(data: InputData):
     print(data)
