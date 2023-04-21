@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec85d2a0-e409-4095-a094-70006135b057" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fakeNewsDetection/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fakeNewsDetection.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNewsDetection/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakeNewsDetection/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNewsDetection/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fakeNewsDetection/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
       <updated>1680257941514</updated>
       <workItem from="1680257942761" duration="10055000" />
       <workItem from="1682060861542" duration="3518000" />
-      <workItem from="1682065792685" duration="589000" />
+      <workItem from="1682065792685" duration="986000" />
     </task>
     <servers />
   </component>
