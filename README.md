@@ -3,11 +3,11 @@ PROJET FAKE NEWS DETECTION PYTHON
 Le but de notre application est de déterminer la véracité d'une news avec comme données son titre et son contenu
 
 Etat d'avancé du projet : 
-Notre IA est entrainé, l'api fonctionne et nous renvoi la prediction ( vérifier avec Insomnia ):
+Notre IA est entrainée, l'api fonctionne et nous renvoie la prediction ( vérifiée avec Insomnia ):
 
     0 - vrai news
     1 - fake news
-Nous sommes au moment ou nous devons connecter FASTAPI avec Django pour envoyé les données sur form à l'API
+Nous sommes au moment où nous devons connecter FASTAPI avec Django pour envoyer les données sur form à l'API
 
 Vous pouvez retrouver le formulaire dans le fichier templates/main/index.html
 
