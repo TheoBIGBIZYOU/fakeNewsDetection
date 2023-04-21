@@ -15,7 +15,4 @@ def index(request):
 
         # Afficher la réponse de FastAPI
         print(response.json())
-    return render(request,'main/index.html')
-
-def showResult(request):
-    
+    return render(request,'main/index.html')    
