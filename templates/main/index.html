@@ -1,8 +1,8 @@
 <h1>Est-ce une fake news ?</h1>
 
-<form method="post" action="/predict">
+<form method="post" action="/predict" id="myForm">
     {% csrf_token %}
-    <input type="text" name="headline" id="headline">
-    <textarea name="article_content" id="article_content" cols="30" rows="10"></textarea>
-    <input type="submit" value="Vérifier">
+    <input type="text" name="titre" id="titre">
+<!--    <textarea name="article_content" id="article_content" cols="30" rows="10"></textarea>-->
+    <input type="submit" value="Vérifier" onclick="submitform()">
 </form>
