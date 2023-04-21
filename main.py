@@ -34,15 +34,15 @@ def read_item(content: Union[str, None] = None):
     return {"content": content}
 
 class InputData(BaseModel):
-    titre: str
-#     content: string
+    title: str
+#     content: str
 
 
 @app.post('/predict')
 def predict(data: InputData):
     print(data)
-    print(data.titre)
+    print(data.title)
 
-    titre = tfidf.transform([data.titre]).toarray()
-    y_pred = model.predict(titre)
+    title = tfidf.transform([data.title]).toarray()
+    y_pred = model.predict(title)
     return {'prediction': str(y_pred[0])}

@@ -2,7 +2,7 @@
 
 <form method="post" action="/predict">
     {% csrf_token %}
-    <input type="text" name="headline" id="headline">
+    <input type="text" name="title" id="title">
     <textarea name="article_content" id="article_content" cols="30" rows="10"></textarea>
     <input type="submit" value="Vérifier">
 </form>
